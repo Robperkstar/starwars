@@ -1,2 +1,2 @@
-# Starwars
-App to display planets from different Starwars films.
+# Star Wars
+App to display planets from different Star Wars films.
