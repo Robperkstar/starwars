@@ -1,2 +1,11 @@
 # Star Wars
-App to display planets from different Star Wars films.
+
+Instructions
+
+1. Clone Repo
+
+2. Navigate to StarWarsPlanets
+
+3. Run npm install
+
+4. Run ionic serve
