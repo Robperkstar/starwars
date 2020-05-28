@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Films
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+
+    <ion-item [routerLink]="[(i+1)+'/planet']" *ngFor="let film of films; let i = index">
+      <ion-label>{{film}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
